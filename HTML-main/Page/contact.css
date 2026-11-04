@@ -1,0 +1,90 @@
+body {
+  margin: 0;
+  color: #f4f1ea;
+  background-image: url(background.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  font-family: "Noto Serif JP", "Times New Roman", serif;
+}
+
+.contact-layout {
+  display: grid;
+  grid-template-columns: minmax(280px, 1.2fr) minmax(220px, 0.8fr);
+  gap: 36px;
+  max-width: 880px;
+  margin: 36px auto 88px;
+  padding: 28px 32px 32px;
+  background: rgba(8, 12, 16, 0.62);
+  border: 1px solid rgba(255, 255, 255, 0.28);
+}
+
+.contact-layout h1 {
+  margin: 0 0 8px;
+  font-size: 32px;
+  font-weight: 400;
+  letter-spacing: 0.08em;
+}
+
+.style {
+  margin: 0;
+  font-size: 16px;
+  font-style: normal;
+}
+
+.name-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+}
+
+#contact-form label {
+  display: block;
+  margin: 14px 0 6px;
+}
+
+#contact-form input,
+#contact-form textarea {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 8px 10px;
+  color: #f4f1ea;
+  background: rgba(0, 0, 0, 0.35);
+  border: 1px solid rgba(255, 255, 255, 0.45);
+  font: inherit;
+}
+
+#contact-form input[type="submit"] {
+  width: auto;
+  margin-top: 18px;
+  padding: 8px 16px;
+  letter-spacing: 0.06em;
+  cursor: pointer;
+}
+
+#contact {
+  padding-top: 8px;
+  font-size: 16px;
+  line-height: 1.7;
+}
+
+#contact p {
+  margin: 0 0 22px;
+}
+
+#contact a,
+#contact a:visited {
+  color: #f4f1ea;
+}
+
+@media (max-width: 720px) {
+  .contact-layout,
+  .name-row {
+    grid-template-columns: 1fr;
+  }
+
+  .contact-layout {
+    margin: 20px 12px 88px;
+    padding: 20px 16px 24px;
+  }
+}

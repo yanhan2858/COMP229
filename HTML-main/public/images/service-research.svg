@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 160" role="img" aria-label="Document icon">
+  <rect width="160" height="160" rx="24" fill="#12343b"/>
+  <path d="M48 28 H96 L120 52 V132 H48 Z" fill="#0c181c" stroke="#39d3de" stroke-width="3"/>
+  <path d="M96 28 V52 H120" fill="none" stroke="#39d3de" stroke-width="3"/>
+  <rect x="62" y="72" width="42" height="6" rx="3" fill="#d7eef2"/>
+  <rect x="62" y="86" width="42" height="6" rx="3" fill="#3d6a72"/>
+  <rect x="62" y="100" width="32" height="6" rx="3" fill="#3d6a72"/>
+</svg>

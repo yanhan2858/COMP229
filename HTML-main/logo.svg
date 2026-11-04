@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 210 64" role="img" aria-label="Jenny Ed">
+  <g shape-rendering="crispEdges" transform="translate(4,4)">
+    <!-- white leaves, wide like an old cherry tree -->
+    <g fill="#ffffff">
+      <rect x="4" y="6" width="8" height="6"/>
+      <rect x="14" y="2" width="12" height="6"/>
+      <rect x="28" y="4" width="10" height="6"/>
+      <rect x="8" y="12" width="8" height="4"/>
+      <rect x="18" y="12" width="14" height="6"/>
+      <rect x="34" y="12" width="8" height="4"/>
+      <rect x="12" y="18" width="6" height="4"/>
+      <rect x="22" y="18" width="8" height="4"/>
+      <rect x="34" y="18" width="6" height="4"/>
+    </g>
+    <!-- 红木 trunk, thick and forked like a large sakura -->
+    <g fill="#7a3028">
+      <rect x="10" y="20" width="4" height="4"/>
+      <rect x="14" y="18" width="4" height="6"/>
+      <rect x="30" y="18" width="4" height="6"/>
+      <rect x="34" y="20" width="4" height="4"/>
+      <rect x="16" y="22" width="16" height="4"/>
+      <rect x="18" y="26" width="12" height="16"/>
+      <rect x="16" y="38" width="16" height="6"/>
+      <rect x="14" y="44" width="20" height="6"/>
+    </g>
+    <g fill="#4e1c18">
+      <rect x="18" y="28" width="4" height="14"/>
+      <rect x="26" y="30" width="4" height="10"/>
+    </g>
+  </g>
+  <text x="78" y="40" fill="#f4f1ea" font-family="Times New Roman, serif" font-size="20">Jenny Ed</text>
+</svg>

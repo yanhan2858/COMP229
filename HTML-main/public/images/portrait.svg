@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 480" role="img" aria-label="Monogram portrait of Jenny Ed">
+  <rect width="400" height="480" fill="#12343b"/>
+  <circle cx="200" cy="168" r="74" fill="#d7eef2"/>
+  <path d="M64 470 C 78 292, 322 292, 336 470 Z" fill="#d7eef2"/>
+  <text x="200" y="452" text-anchor="middle" font-family="Georgia, serif" font-size="28" fill="#39d3de">JE</text>
+</svg>

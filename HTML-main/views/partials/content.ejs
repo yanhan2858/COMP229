@@ -1,0 +1,12 @@
+<header>
+  <nav class="site-nav" aria-label="Main">
+    <a class="brand" href="/"><img src="/logo.svg" alt="Jenny Ed"></a>
+    <ul>
+      <li><a class="<%= currentPage === 'home' ? 'is-current' : '' %>" href="/">Home</a></li>
+      <li><a class="<%= currentPage === 'about' ? 'is-current' : '' %>" href="/about">About</a></li>
+      <li><a class="<%= currentPage === 'projects' ? 'is-current' : '' %>" href="/projects">Projects</a></li>
+      <li><a href="https://liyigarden.xyz" target="_blank" rel="noopener">Services</a></li>
+      <li><a class="<%= currentPage === 'contact' ? 'is-current' : '' %>" href="/contact">Contact</a></li>
+    </ul>
+  </nav>
+</header>

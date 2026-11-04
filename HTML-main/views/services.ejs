@@ -1,0 +1,15 @@
+<%- include('partials/header') %>
+<%- include('partials/content') %>
+
+<!-- Section: service list -->
+<div class="wrap">
+  <% serviceList.forEach(function (service) { %>
+    <article class="card">
+      <img src="<%= service.image %>" alt="<%= service.imageAlt %>">
+      <h2><%= service.title %></h2>
+      <p><%= service.summary %></p>
+    </article>
+  <% }); %>
+</div>
+
+<%- include('partials/footer') %>

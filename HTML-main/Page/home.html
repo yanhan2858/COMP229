@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homepage</title>
+    <link rel="stylesheet" href="home.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@400;600&display=swap">
+    <link rel="stylesheet" href="../nav.css">
+</head>
+<style>
+    html, body {
+        cursor: url(/Page/Static/Person.cur) 0 0, auto !important;   /* 默认状态 */
+        }
+    a:hover {
+        cursor: url(/Page/Static/Help.cur) 0 0, auto !important;  /* hover状态 */
+        }
+</style>
+<body>
+    <div class="content">
+        <header>
+            <nav class="site-nav" aria-label="Main">
+                <a class="brand" href="home.html"><img src="../logo.svg" alt="Jenny Ed"></a>
+                <ul>
+                    <li><a class="is-current" href="home.html">Home</a></li>
+                    <li><a href="../studentweb/about.html">About</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="https://liyigarden.xyz" target="_blank" rel="noopener">Services</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+        <div class="main">
+            <h1 id="goback">Welcome</h1>
+            <p id="sent-note" hidden></p>
+            <p>Hello. I am Jenny Ed.</p>
+            <p><strong>Mission.</strong> I keep a small place for the work I actually make: the garden at liyigarden, the story of Lii, and a way to reach me.</p>
+            <p><a href="../studentweb/about.html">About me</a></p>
+        </div>
+    </div>
+    <p class="bg-credit">背景图来自游戏：<a href="https://key.visualarts.gr.jp/kinetic/stella/">星之终途</a></p>
+    <script>
+        var sentNote = document.getElementById("sent-note");
+        if (new URLSearchParams(window.location.search).get("sent") === "1") {
+            var savedMessage = sessionStorage.getItem("contactSubmission");
+            var senderName = "";
+            if (savedMessage) {
+                senderName = JSON.parse(savedMessage).firstName || "";
+            }
+            sentNote.textContent = senderName
+                ? "Thanks, " + senderName + ". Your message was kept, and you are back on the home page."
+                : "Thanks. Your message was kept, and you are back on the home page.";
+            sentNote.hidden = false;
+        }
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" role="img" aria-label="Stacked website panels">
+  <rect width="800" height="500" fill="#10262c"/>
+  <rect x="150" y="70" width="500" height="320" rx="18" fill="#16343c" stroke="#39d3de" stroke-width="4"/>
+  <rect x="150" y="70" width="500" height="54" rx="18" fill="#1c4a52"/>
+  <rect x="150" y="100" width="500" height="24" fill="#1c4a52"/>
+  <circle cx="186" cy="97" r="8" fill="#39d3de"/>
+  <circle cx="214" cy="97" r="8" fill="#8eecf4"/>
+  <rect x="190" y="160" width="180" height="16" rx="8" fill="#d7eef2"/>
+  <rect x="190" y="196" width="420" height="12" rx="6" fill="#3d6a72"/>
+  <rect x="190" y="222" width="380" height="12" rx="6" fill="#3d6a72"/>
+  <rect x="190" y="248" width="340" height="12" rx="6" fill="#3d6a72"/>
+  <rect x="190" y="300" width="140" height="42" rx="10" fill="#39d3de"/>
+</svg>

@@ -1,0 +1,76 @@
+body {
+    background-image: url(Resourcesbackground.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+li:hover {
+    background-color: rgb(57, 211, 222);
+    border-radius: 10px;
+    padding: 5px 10px;
+
+}
+
+nav {
+    margin-top: 20px;
+    font-size: 30px;
+    color: white;
+    border: solid white 2px;
+    
+}
+
+header ul {
+    display: flex;
+    gap: 10px 50px;
+    flex-wrap: wrap;
+    justify-content: center;
+    border-radius: 10px;
+
+}
+
+li a {
+    text-decoration: none;
+    color: #07a6c9;
+    border-radius: 5%;
+    font-size: larger;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+a:visited {
+    color: white;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    border-radius: 10%;
+}
+
+.boxstyle {
+    border: 1px solid #03b9d1;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    background-color: rgb(182, 245, 245);
+    border-radius: 5%;
+    
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    padding: 10px;
+    max-width: 800px;
+    margin: 0 auto;
+
+}
+h2 {
+    font-size: larger;
+    color: whitesmoke;
+    font-weight: bold;
+}

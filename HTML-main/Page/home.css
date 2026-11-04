@@ -1,0 +1,84 @@
+        body {
+            background-image: url(stellaoftheend.png);
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+        li:hover {
+            background-color: rgb(57, 211, 222);
+            border-radius: 10px;
+            padding: 5px 10px;
+
+        }
+        .main {
+            background-size: 100%;
+            text-align: center;
+            margin: 0 auto;
+            padding: 10px;
+            width: 50%;
+            height: 40%;
+            border: solid white 2px;
+            color: white;
+        }
+
+        h1 {
+            font-family: "微软雅黑", sans-serif;
+            font-size: 40px;
+            font-weight: bold;
+        }
+
+        input {
+            border: 1px solid white;
+            display: block;
+            margin: 10px auto;
+            padding: 5px;
+            width: 230px;
+            border-radius: 15px;
+            font-size: 18px;
+            font-weight: 300;
+            text-align: center;
+            
+        }
+
+        button {
+            background-color: #20a7ff;
+            border-radius: 10px;
+            border: 0;
+            height: 30px;
+            width: 80px;
+            padding: 5px;
+            color: white;
+        }
+        nav {
+            margin-top: 20px;
+            font-size: 30px;
+            color: white;
+            border: solid white 2px;
+        }
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+        header ul{
+            display: flex;
+            gap: 10px 50px;
+            flex-wrap: wrap;
+            justify-content: center;
+            border-radius: 10px;
+
+        }
+        li a {
+            color: white;
+            text-decoration: none;
+        }
+        a:visited {
+            color: white;
+        }
+        html, body {
+        cursor: url(loc.png) 0 0, auto !important;   /* 默认状态 */
+        }
+        p {
+            font-size: 30px;
+        }
+        #goback {
+            
+        }

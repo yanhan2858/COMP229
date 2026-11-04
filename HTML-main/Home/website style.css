@@ -1,0 +1,51 @@
+       body {
+            background-image: url(1\ \(1\)-0000.png);
+            background-size: 100%;
+
+        }
+
+        .content {
+            position: absolute；
+        }
+
+        .main {
+
+            background-size: 100%;
+            text-align: center;
+            margin: 0 auto;
+
+        }
+
+        h1 {
+            font-family: “微软雅黑”;
+            font-size: 40px;
+            font-weight: bold;
+            color: white;
+            margin-top: 150px;
+        }
+
+        input {
+            border: 1px solid white;
+            display: block;
+            margin: 10px auto;
+            padding: 5px;
+            width: 230px;
+            border-radius: 15px;
+            font-size: 18px;
+            font-weight: 300;
+            text-align: center;
+
+        }
+
+        button {
+            background-color: #20a7ff;
+            border-radius: 10px;
+            border: 0;
+            height: 30px;
+            width: 80px;
+            padding: 5px;
+            color: white;
+        }
+        form {
+            text-align: center;
+        }

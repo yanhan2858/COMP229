@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" role="img" aria-label="Geometric butterfly">
+  <rect width="800" height="500" fill="#10262c"/>
+  <ellipse cx="250" cy="220" rx="150" ry="100" fill="#1a4e57" transform="rotate(-18 250 220)"/>
+  <ellipse cx="255" cy="310" rx="120" ry="78" fill="#39d3de" transform="rotate(16 255 310)"/>
+  <ellipse cx="550" cy="220" rx="150" ry="100" fill="#1a4e57" transform="rotate(18 550 220)"/>
+  <ellipse cx="545" cy="310" rx="120" ry="78" fill="#8eecf4" transform="rotate(-16 545 310)"/>
+  <rect x="392" y="145" width="16" height="230" rx="8" fill="#f4fbff"/>
+  <circle cx="400" cy="142" r="16" fill="#f4fbff"/>
+  <path d="M400 142 C 348 70, 470 58, 428 132" fill="none" stroke="#39d3de" stroke-width="5"/>
+</svg>

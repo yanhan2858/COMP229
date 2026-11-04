@@ -1,0 +1,96 @@
+﻿<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta name=" viewport" content="width=devide-width,initial-scale=1.0">
+    <meta charset="utf-8" />
+    <title>Contact</title>
+    <link rel="stylesheet" href="contact.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@400;600&display=swap">
+    <link rel="stylesheet" href="../nav.css">
+
+</head>
+<style>
+    html,
+    body {
+        cursor: url(Static/Person.cur) 0 0, auto !important;
+        /* 默认状态 */
+    }
+
+    a:hover {
+        cursor: url(Static/Help.cur) 0 0, auto !important;
+        /* hover状态 */
+    }
+    input:hover{
+        cursor: url(Static/Handwriting.cur) 0 0, auto !important;
+    }
+</style>
+
+<body>
+    <div class="content">
+        <header>
+            <nav class="site-nav" aria-label="Main">
+                <a class="brand" href="home.html"><img src="../logo.svg" alt="Jenny Ed"></a>
+                <ul>
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="../studentweb/about.html">About</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="https://liyigarden.xyz" target="_blank" rel="noopener">Services</a></li>
+                    <li><a class="is-current" href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+    </div>
+
+    <div class="contact-layout">
+        <div class="style">
+            <h1>Contact</h1>
+            <form id="contact-form">
+                <div class="name-row">
+                    <div>
+                        <label for="first-name">First Name</label>
+                        <input id="first-name" name="firstName" type="text" required>
+                    </div>
+                    <div>
+                        <label for="last-name">Last Name</label>
+                        <input id="last-name" name="lastName" type="text" required>
+                    </div>
+                </div>
+                <label for="contact-number">Contact Number</label>
+                <input id="contact-number" name="contactNumber" type="tel" required>
+                <label for="email-address">Email Address</label>
+                <input id="email-address" name="emailAddress" type="email" required>
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+                <input type="submit" value="Send message">
+            </form>
+        </div>
+
+        <div id="contact">
+            <p>
+                &copy; 2026 Jenny Ed<br>
+                Contact me at:<br>
+                <a href="mailto:yanhan2858@outlook.com">Outlook Email</a><br>
+                <a href="https://github.com/yanhan2858">GitHub Profile</a>
+            </p>
+        </div>
+    </div>
+    <p class="bg-credit">背景图来自游戏：<a href="https://en.enderlilies.com/">ENDER LILIES</a></p>
+    <script>
+        document.getElementById("contact-form").addEventListener("submit", function (submitEvent) {
+            submitEvent.preventDefault();
+            var contactSubmission = {
+                firstName: document.getElementById("first-name").value.trim(),
+                lastName: document.getElementById("last-name").value.trim(),
+                contactNumber: document.getElementById("contact-number").value.trim(),
+                emailAddress: document.getElementById("email-address").value.trim(),
+                message: document.getElementById("message").value.trim()
+            };
+            sessionStorage.setItem("contactSubmission", JSON.stringify(contactSubmission));
+            window.location.href = "home.html?sent=1";
+        });
+    </script>
+</body>
+
+</html>

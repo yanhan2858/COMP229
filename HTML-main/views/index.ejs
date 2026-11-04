@@ -1,0 +1,14 @@
+<%- include('partials/header') %>
+<div class="content">
+  <div class="main">
+    <h1 id="goback">Welcome</h1>
+    <% if (sent) { %>
+    <p id="sent-note">Thanks<% if (senderName) { %>, <%= senderName %><% } %>. Your message was kept, and you are back on the home page.</p>
+    <% } %>
+    <p>Hello. I am Jenny Ed.</p>
+    <p><strong>Mission.</strong> I keep a small place for the work I actually make: the garden at liyigarden, the story of Lii, and a way to reach me.</p>
+    <p><a href="/about">About me</a></p>
+  </div>
+</div>
+<p class="bg-credit">背景图来自游戏：<a href="https://key.visualarts.gr.jp/kinetic/stella/">星之终途</a></p>
+<%- include('partials/footer') %>

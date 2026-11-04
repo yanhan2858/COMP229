@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 160" role="img" aria-label="Routes icon">
+  <rect width="160" height="160" rx="24" fill="#12343b"/>
+  <circle cx="46" cy="48" r="10" fill="#39d3de"/>
+  <circle cx="114" cy="48" r="10" fill="#8eecf4"/>
+  <circle cx="80" cy="112" r="10" fill="#d7eef2"/>
+  <path d="M54 54 L74 104 M106 54 L86 104 M56 48 H104" fill="none" stroke="#39d3de" stroke-width="4"/>
+</svg>

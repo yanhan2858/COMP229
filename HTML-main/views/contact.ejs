@@ -1,0 +1,35 @@
+<%- include('partials/header') %>
+<div class="contact-layout">
+  <div class="style">
+    <h1>Contact</h1>
+    <form id="contact-form" method="post" action="/contact">
+      <div class="name-row">
+        <div>
+          <label for="first-name">First Name</label>
+          <input id="first-name" name="firstName" type="text" required>
+        </div>
+        <div>
+          <label for="last-name">Last Name</label>
+          <input id="last-name" name="lastName" type="text" required>
+        </div>
+      </div>
+      <label for="contact-number">Contact Number</label>
+      <input id="contact-number" name="contactNumber" type="tel" required>
+      <label for="email-address">Email Address</label>
+      <input id="email-address" name="emailAddress" type="email" required>
+      <label for="message">Message</label>
+      <textarea id="message" name="message" rows="5" required></textarea>
+      <input type="submit" value="Send message">
+    </form>
+  </div>
+  <div id="contact">
+    <p>
+      &copy; 2026 Jenny Ed<br>
+      Contact me at:<br>
+      <a href="mailto:yanhan2858@outlook.com">Outlook Email</a><br>
+      <a href="https://github.com/yanhan2858">GitHub Profile</a>
+    </p>
+  </div>
+</div>
+<p class="bg-credit">背景图来自游戏：<a href="https://en.enderlilies.com/">ENDER LILIES</a></p>
+<%- include('partials/footer') %>

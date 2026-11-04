@@ -1,0 +1,61 @@
+body {
+    background-image: url(land.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#box1{
+    width: auto;
+    height: auto;
+    border-radius: 20px;
+    border-width: 5px;
+    box-sizing: content-box;
+    margin: auto;
+    text-align: center;
+    font-size: auto;
+    font-family: Verdana, Helvetica, sans-serif;
+}
+#box2{
+    box-sizing: content-box;
+    border: solid;
+    border-radius: 20px;
+    border-width: 2px;
+    padding: auto;
+    font-family: Verdana, 'Times New Roman', Times, serif;
+    background-color: whitesmoke;
+    padding-left: 10%;
+    padding-right: 10%;
+    margin-left: 5%;
+    margin-right: 5%;
+    height: auto;
+}
+#box3{
+    background-color: whitesmoke;
+    font-size: 150%;
+    font-family: Verdana, Helvetica, sans-serif;
+    border: solid;
+    border-color: blanchedalmond;
+    border-radius: 20px;
+    height: auto;
+    width: auto;
+    padding: 0%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.nounderline{
+    text-decoration: none;
+}
+#box2 p{
+    font-size: 150%;
+}
+#box3 header ul{
+    display: flex;
+    list-style: decimal inside;
+    gap: 10px 50px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+#Finally{
+    font-size: larger;
+    text-align: center;
+    
+}
