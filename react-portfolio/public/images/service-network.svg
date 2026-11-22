@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 160" role="img" aria-label="Locked connection">
+  <rect width="160" height="160" rx="24" fill="#12343b"/>
+  <circle cx="46" cy="80" r="10" fill="#39d3de"/>
+  <circle cx="114" cy="80" r="10" fill="#8eecf4"/>
+  <path d="M56 80 H74 M86 80 H104" fill="none" stroke="#39d3de" stroke-width="4"/>
+  <rect x="70" y="64" width="20" height="16" rx="3" fill="#0c181c" stroke="#d7eef2" stroke-width="2"/>
+  <path d="M74 64 V58 a6 6 0 0 1 12 0 V64" fill="none" stroke="#d7eef2" stroke-width="2"/>
+</svg>

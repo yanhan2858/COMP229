@@ -23,8 +23,6 @@ app.set('view engine', 'ejs');
 /* Section: values shared by every page */
 app.locals.studentName = 'Jenny Ed';
 app.locals.studentId = '2024110651';
-app.locals.email = 'yanhan2858@outlook.com';
-app.locals.githubUrl = 'https://github.com/yanhan2858';
 
 app.use(logger('dev'));
 app.use(express.json());

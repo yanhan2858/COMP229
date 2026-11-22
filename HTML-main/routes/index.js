@@ -30,7 +30,9 @@ var projectsStyle = [
   'main { max-width: 880px; margin: 0 auto; padding: 24px 20px 48px; }',
   'article { margin-bottom: 28px; padding-bottom: 16px; border-bottom: 1px solid rgba(255, 255, 255, 0.25); }',
   'img { display: block; width: 160px; height: 96px; image-rendering: pixelated; }',
-  'a { color: #f4f1ea; }'
+  'a { color: #f4f1ea; }',
+  'html, body { cursor: url(/Page/Static/Person.cur) 0 0, auto !important; }',
+  'a:hover { cursor: url(/Page/Static/Help.cur) 0 0, auto !important; }'
 ].join('\n');
 
 /* Section: routes for the same pages Live Server opens */

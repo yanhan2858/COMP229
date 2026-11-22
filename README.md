@@ -1,3 +1,7 @@
+# COMP229 — Jenny Ed
+
+Assignment 2, the React portfolio, is in `react-portfolio`. See `react-portfolio/README.md`.
+
 # COMP229 Assignment 1 — Jenny Ed
 
 Student ID: 2024110651

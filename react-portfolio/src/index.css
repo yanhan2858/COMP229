@@ -1,0 +1,201 @@
+/*
+ * File name: index.css
+ * Student Name: Jenny Ed
+ * StudentID: 2024110651
+ * Date: 2026-11-22
+ */
+
+body {
+  margin: 0;
+  color: #f4fbff;
+  background: #10262c;
+  font-family: Arial, "Microsoft YaHei", sans-serif;
+  line-height: 1.5;
+}
+
+a {
+  color: #8eecf4;
+}
+
+h1,
+h2 {
+  line-height: 1.2;
+}
+
+.site-nav {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 12px 20px;
+  border-bottom: 1px solid #39d3de;
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.logo {
+  width: 42px;
+  height: 42px;
+}
+
+.site-nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.site-nav li a {
+  display: inline-block;
+  padding: 6px 10px;
+  color: white;
+  text-decoration: none;
+}
+
+.site-nav li a:hover,
+.site-nav li a.active {
+  color: #062126;
+  background: #39d3de;
+  border-radius: 8px;
+}
+
+main {
+  padding: 8px 0 24px;
+}
+
+.wrap {
+  max-width: 880px;
+  margin: 0 auto;
+  padding: 16px 20px 20px;
+}
+
+.card {
+  margin-bottom: 16px;
+  padding: 12px;
+  border: 1px solid #39d3de;
+  border-radius: 12px;
+}
+
+.card img {
+  display: block;
+  width: 100%;
+  max-width: 320px;
+  height: 160px;
+  object-fit: cover;
+  margin-bottom: 8px;
+  background: #0c181c;
+  border-radius: 8px;
+}
+
+.service-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 16px;
+}
+
+.service-grid .card {
+  margin-bottom: 0;
+}
+
+.portrait {
+  width: 180px;
+  height: 180px;
+  object-fit: cover;
+  border: 1px solid #39d3de;
+  border-radius: 12px;
+}
+
+.about {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  align-items: flex-start;
+}
+
+.contact {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  align-items: flex-start;
+}
+
+.contact-panel {
+  width: min(100%, 240px);
+  padding: 12px;
+  border: 1px solid #39d3de;
+  border-radius: 12px;
+}
+
+label {
+  display: block;
+  margin-top: 10px;
+}
+
+input,
+textarea {
+  width: 100%;
+  max-width: 420px;
+  padding: 8px;
+  box-sizing: border-box;
+  color: #062126;
+  background: #f4fbff;
+  border: 0;
+  border-radius: 8px;
+  font: inherit;
+}
+
+.name-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.button,
+button {
+  display: inline-block;
+  margin-right: 8px;
+  padding: 8px 14px;
+  color: #062126;
+  background: #39d3de;
+  border: 0;
+  border-radius: 8px;
+  font-weight: bold;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.button-plain {
+  color: #f4fbff;
+  background: transparent;
+  border: 1px solid #39d3de;
+}
+
+.actions {
+  margin-top: 20px;
+}
+
+.notice {
+  padding: 10px;
+  border: 1px solid #39d3de;
+  border-radius: 8px;
+}
+
+footer {
+  padding: 16px 20px 28px;
+  border-top: 1px solid #39d3de;
+  color: #d7eef2;
+}
+
+footer p {
+  margin: 0;
+}
